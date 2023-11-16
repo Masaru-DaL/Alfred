@@ -16,6 +16,7 @@
   },
 
   "Rules": [
+    "Answer in Japanese.",
     "Output a single meaning value that can specify the generated image.",
     "The 'gen_id' to identify the generated image should also be output."
   ]
