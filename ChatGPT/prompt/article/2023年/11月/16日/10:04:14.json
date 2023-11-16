@@ -1,0 +1,20 @@
+{
+  "Message to you": {
+    "Requests": "Correction of articles",
+    "Details of contents": [
+      "Strings of the article itself.",
+      "Link to Article",
+      "Article File."
+    ]
+  },
+  "Information for Correction of articles": {
+    "Strings": "",
+    "URL": "{\n  \"Message to you\": {\n    \"Requests\": \"Correction of articles\",\n    \"Details of contents\": [\n      \"Strings of the article itself.\",\n      \"Link to Article\",\n      \"Article File.\"\n    ]\n  },\n  \"Information for Correction of articles\": {\n    \"Strings\": \"$prompt_article_dir/$year/$month/$day/$time.json\",\n    \"URL\": \"\"\n  },\n  \"Rules\": [\n    \"Corrections should be made with the following information: the text of the article itself, a link to the article, or the article file.\",\n    \"Review the article and make sure the text description is appropriate.\",\n    \"Please point out any incorrect information listed.\",\n    \"Check for typographical errors.\"\n  ]\n}"
+  },
+  "Rules": [
+    "Corrections should be made with the following information: the text of the article itself, a link to the article, or the article file.",
+    "Review the article and make sure the text description is appropriate.",
+    "Please point out any incorrect information listed.",
+    "Check for typographical errors."
+  ]
+}

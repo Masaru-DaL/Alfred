@@ -1,0 +1,22 @@
+{
+  "Message to you": {
+    "Requests": "Image Generation",
+    "Details of contents": "See the Information for image generation key in json."
+  },
+
+  "Information for image generation": {
+    "Theme": "",
+    "Style": "",
+    "Ratio": "",
+    "Atmosphere": "",
+    "Color": "",
+    "Detail": "",
+    "Number": "",
+    "Pattern": ""
+  },
+
+  "Rules": [
+    "Output a single meaning value that can specify the generated image.",
+    "The 'gen_id' to identify the generated image should also be output."
+  ]
+}
