@@ -14,6 +14,7 @@
   },
 
   "Rules": [
+    "Answer in Japanese.",
     "Corrections should be made with the following information: the text of the article itself, a link to the article, or the article file.",
     "Review the article and make sure the text description is appropriate.",
     "Please point out any incorrect information listed.",
