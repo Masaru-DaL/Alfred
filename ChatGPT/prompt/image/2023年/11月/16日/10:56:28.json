@@ -4,19 +4,18 @@
     "Details of contents": "See the Information for image generation key in json."
   },
   "Information for image generation": {
-    "Theme": "完成した気持ち",
-    "Style": "surrealistic",
-    "Ratio": "wide (1:2)",
+    "Theme": "素晴らしい",
+    "Style": "realistic",
+    "Ratio": "random",
     "Atmosphere": "random",
-    "Color": "translucent",
-    "Detail": "modern tech lab",
+    "Color": "cool colors",
+    "Detail": "random",
     "Number": "3 images",
     "Pattern": "same theme, different angles",
     "Use": "tech article"
   },
   "Rules": [
     "Output a single meaning value that can specify the generated image.",
-    "The 'gen_id' to identify the generated image should also be output.",
-    "生成する画像の枚数は、'Information for image generation'の'Number'のvalueを参照してください。"
+    "The 'gen_id' to identify the generated image should also be output."
   ]
 }
