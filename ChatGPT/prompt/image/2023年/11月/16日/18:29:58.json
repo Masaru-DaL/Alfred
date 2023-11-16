@@ -1,0 +1,22 @@
+{
+  "Message to you": {
+    "Requests": "Image Generation",
+    "Details of contents": "See the Information for image generation key in json."
+  },
+  "Information for image generation": {
+    "Theme": "sun",
+    "Style": "random",
+    "Ratio": "panorama (1:3)",
+    "Atmosphere": "vibrant",
+    "Color": "translucent",
+    "Detail": "futuristic city",
+    "Number": "2 images",
+    "Pattern": "same theme, different angles",
+    "Use": "icon"
+  },
+  "Rules": [
+    "Answer in Japanese.",
+    "Output a single meaning value that can specify the generated image.",
+    "The 'gen_id' to identify the generated image should also be output."
+  ]
+}
