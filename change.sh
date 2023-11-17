@@ -3,11 +3,8 @@
 # 変更を加えたいディレクトリへのパスを指定
 target_directory="~/Alfred"
 
-# 指定したディレクトリ内の.csvファイルを取得
-csv_files=("$target_directory"/*.csv)
-
-# ファイルごとに処理
-for csv_file in "${csv_files[@]}"; do
+# 指定したディレクトリ内の全ての.csvファイルを再帰的に取得
+find "$target_directory" -type f -name "*.csv" -print0 | while IFS= read -r -d $'\0' csv_file; do
     # ファイル名を取得
     file_name=$(basename "$csv_file")
 
@@ -18,7 +15,7 @@ for csv_file in "${csv_files[@]}"; do
     new_file_name="${file_name_without_extension}_list.csv"
 
     # ファイル名を変更
-    mv "$csv_file" "$target_directory/$new_file_name"
+    mv "$csv_file" "$(dirname "$csv_file")/$new_file_name"
 
     echo "変更前のファイル名: $file_name"
     echo "変更後のファイル名: $new_file_name"
