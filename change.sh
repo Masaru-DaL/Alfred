@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 変更を加えたいディレクトリへのパスを指定
-target_directory="~/Alfred"
+target_directory="/Users/masaru/Alfred"
 
 # 指定したディレクトリ内の全ての.csvファイルを再帰的に取得
 find "$target_directory" -type f -name "*.csv" -print0 | while IFS= read -r -d $'\0' csv_file; do
