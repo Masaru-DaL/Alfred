@@ -6,7 +6,7 @@ source_directory="/Users/masaru/Alfred"
 # 移動先ディレクトリのパスを指定
 destination_directory="/Users/masaru/Library/Application Support/Alfred/Alfred.alfredpreferences/workflows"
 
-# 移動元ディレクトリ内の全ての.csvファイルを再帰的に取得し、移動先ディレクトリに移動
-find "$source_directory" -type f -name "*.csv" -exec mv {} "$destination_directory" \;
+# 移動元ディレクトリ内の全ての.csvファイルを再帰的に取得し、移動先ディレクトリにコピー
+find "$source_directory" -type f -name "*.csv" -exec cp {} "$destination_directory" \;
 
-echo ".csvファイルを移動しました。"
+echo ".csvファイルをコピーしました。"
