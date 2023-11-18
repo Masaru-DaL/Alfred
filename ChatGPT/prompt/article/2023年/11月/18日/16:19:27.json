@@ -1,0 +1,21 @@
+{
+  "Message to you": {
+    "Requests": "Correction of articles",
+    "Details of contents": [
+      "Strings of the article itself.",
+      "Link to Article",
+      "Article File."
+    ]
+  },
+  "Information for Correction of articles": {
+    "Strings": "残念ながら、bashスクリプトで上記の情報を取得するのは困難であり、通常はユーザーの手動によるチェックが必要です。また、ターミナルやサードパーティのツールを使用してシステムプロセスを監視することは可能ですが、それは高度な知識を必要とし、キー入力がどこで使われているかを特定するのは一般的なケースでは現実的ではないことが多いです。",
+    "URL": ""
+  },
+  "Rules": [
+    "Answer in Japanese.",
+    "Corrections should be made with the following information: the text of the article itself, a link to the article, or the article file.",
+    "Review the article and make sure the text description is appropriate.",
+    "Please point out any incorrect information listed.",
+    "Check for typographical errors."
+  ]
+}
