@@ -15,6 +15,7 @@
 
   "Rules": [
     "Answer in Japanese.",
-    "The 'gen_id' to identify the generated image should also be output."
+    "The 'gen_id' to identify the generated image should also be output.",
+    "Output the prompts used to generate the actual image."
   ]
 }
