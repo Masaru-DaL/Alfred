@@ -1,3 +1,4 @@
-行追加(2),行の追加（2行）,add-row-2
-見出し,Heading,heading
-行追加(>3),行の追加（3行以上）,add-row->3
+行追加(2),行の追加（2列）,add-row-2
+見出し(2),Heading（2列）,heading
+行追加(>3),行の追加（3列以上）,add-row->3
+見出し(>3),Heading（3列以上）,heading->3
